@@ -13,3 +13,46 @@
 #mainNav .navbar-brand img {
   height: 52.66px;
 }
+
+.bg-black {
+  color: white;
+  background-color: black;
+}
+
+#company {
+  .qh-logo img {
+    width: 256px;
+    max-width: 100%;
+  }
+
+  .text-muted {
+    color: white!important;
+    font-style: normal;
+  }
+
+  .row:first-child {
+    margin-bottom: 75px;
+  }
+
+  .qh-video {
+    iframe {
+      width: 560px;
+      height: 315px;
+    }
+  }
+
+  .qh-button {
+    text-align: center;
+  }
+}
+
+@media (max-width: 559px) {
+  #company {
+    .qh-video {
+      iframe {
+        width: 320px;
+        height: 180px;
+      }
+    }
+  }
+}
