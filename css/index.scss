@@ -1,12 +1,36 @@
 ---
 ---
 
+$primary-color: rgb(234, 52, 5);
+$primary-focus-color: rgb(154, 32, 3);
+
+a:not([href]):not([tabindex]) {
+  color: $primary-color;
+
+  &:hover {
+    color: $primary-focus-color;
+    text-decoration: underline;
+  }
+}
+
+#features {
+  .row:first-child {
+    margin-bottom: 75px;
+  }
+}
+
 #download .qh-button {
   text-align: center;
 
   img {
     width: 189px;
     height: 56px;
+  }
+}
+
+#for-designers {
+  .row:nth-child(2) {
+    margin-bottom: 75px;
   }
 }
 
@@ -34,25 +58,61 @@
     margin-bottom: 75px;
   }
 
-  .qh-video {
-    iframe {
-      width: 560px;
-      height: 315px;
-    }
-  }
-
   .qh-button {
     text-align: center;
   }
 }
 
-@media (max-width: 559px) {
-  #company {
-    .qh-video {
-      iframe {
-        width: 320px;
-        height: 180px;
-      }
+@media (max-width: 479px) {
+  .qh-video {
+    iframe {
+      width: 320px;
+      height: 180px;
+    }
+  }
+}
+
+@media (min-width: 480px) and (max-width: 639px) {
+  .qh-video {
+    iframe {
+      width: 480px;
+      height: 270px;
+    }
+  }
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+  .qh-video {
+    iframe {
+      width: 480px;
+      height: 270px;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .qh-video {
+    iframe {
+      width: 640px;
+      height: 360px;
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .qh-video {
+    iframe {
+      width: 854px;
+      height: 480px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .qh-video {
+    iframe {
+      width: 854px;
+      height: 480px;
     }
   }
 }
