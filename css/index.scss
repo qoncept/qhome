@@ -28,6 +28,16 @@ a:not([href]):not([tabindex]) {
   }
 }
 
+#import {
+  .qh-item {
+    div:first-child {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
 #builders {
   .row:nth-child(2) {
     margin-bottom: 75px;

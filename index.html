@@ -132,37 +132,33 @@
           </div>
         </div>
         <div class="row text-center">
-          <div class="col-md-6">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="feature-heading">COLLADAから</h4>
-            <p class="text-muted">COLLADA (.dae) ファイルを</p>
+          <div class="qh-item col-md-6">
+            <div>
+              <img src="img/import/modeling.png" alt="Modeling" />
+            </div>
+            <h4 class="feature-heading">1. COLLADAファイルをエクスポート</h4>
+            <p class="text-muted">3D モデルを COLLADA (.dae) 形式で作成して下さい。多くの 3D モデリングソフトウェアは、 COLLADA 形式でモデルをエクスポートすることができます。</p>
           </div>
-          <div class="col-md-6">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="feature-heading">QHOMEアプリから</h4>
-            <p class="text-muted">間取り図を見ただけで広さをイメージするのは困難です。 QHOME を使えば、 <strong>VR</strong> で実際に自分の足で歩いて部屋の広さを確認することができます。</p>
+          <div class="qh-item col-md-6">
+            <div>
+              <img src="img/import/conversion.png" alt="Converting models" />
+            </div>
+            <h4 class="feature-heading">2. QHOME用にデータを変換</h4>
+            <p class="text-muted"><a href="data/qhome-maker.app.zip">QHOME Maker</a> を使って COLLADA から QHOME 用のファイルを生成します。 COLLADA ファイルをドラッグ・アンド・ドロップするだけです（現状では Mac が必要です）。</p>
           </div>
-          <div class="col-md-6">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="feature-heading">AirDrop</h4>
-            <p class="text-muted">リビングからの眺めは想像通りでしょうか。もう少し窓をずらせばよかった、そんなことにならないように現地で <strong>AR</strong> でシミュレーションできます。</p>
+          <div class="qh-item col-md-6">
+            <div>
+              <img src="img/import/import.png" alt="Importing models" />
+            </div>
+            <h4 class="feature-heading">3. QHOMEにモデルをインポート</h4>
+            <p class="text-muted"><a href="https://support.apple.com/ja-jp/HT204144">AirDrop</a> か <a href="https://support.apple.com/ja-jp/HT201301">iTunesファイル共有</a> を使って QHOME アプリに QHOME ファイルを取り込みます。一度 QHOME アプリに取り込んだモデルは、モデルの設定画面から AirDrop を用いて QHOME アプリ間で直接受け渡しできます。</p>
           </div>
-          <div class="col-md-6">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="feature-heading">iTunesファイル共有</h4>
-            <p class="text-muted">たとえば、吹き抜けから見下ろしたときにどう見えるかイメージできますか。 QHOME なら好きな場所・角度からの見え方を確認することができます。</p>
+          <div class="qh-item col-md-6">
+            <div>
+              <img src="img/import/settings.png" alt="Settings" />
+            </div>
+            <h4 class="feature-heading">4. モデルの設定</h4>
+            <p class="text-muted">QHOME アプリに取り込まれたモデルをアプリ上の設定画面から設定します。初期位置や向き、座標系の単位などを設定して下さい。</p>
           </div>
         </div>
       </div>
@@ -192,7 +188,7 @@
               <i class="fa fa-home fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="feature-heading">既存のデータが利用可</h4>
-            <p>ご利用のモデリングツールから COLLADA (.dae) 形式でデータをエクスポートすることができれば、既存データをそのままご利用いただけます。<a class="js-scroll-trigger" href="#import">モデルのインポート</a>の手順でアプリにデータを取り込んで下さい。</p>
+            <p>ご利用の 3D モデリングソフトウェアや 3D CAD から COLLADA (.dae) 形式でデータをエクスポートすることができれば、既存データをそのままご利用いただけます。<a class="js-scroll-trigger" href="#import">モデルのインポート</a>の手順でアプリにデータを取り込んで下さい。</p>
           </div>
           <div class="col-md-6">
             <span class="fa-stack fa-4x">
@@ -200,7 +196,7 @@
               <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="feature-heading">iPhone / iPad で実行</h4>
-            <p>QHOME は <a data-toggle="popover" data-placement="bottom" title="ARKit対応機種" data-content="iPhone 6s, iPhone 6s Plus, iPhone 7, iPhone 7 Plus, iPhone SE, iPad Pro (9.7, 10.5, 12.9 インチ), iPad (第5世代)">ARKit に対応した iPhone または iPad</a> で実行できます。お客様の iPhone にもインストールできるので、ご自宅で実行していただき、今お住いのお部屋と広さを比較していただくこともできます。</p>
+            <p>QHOME は <a data-toggle="popover" data-placement="bottom" title="ARKit対応機種" data-content="iPhone 6s, iPhone 6s Plus, iPhone 7, iPhone 7 Plus, iPhone SE, iPad Pro (9.7, 10.5, 12.9-inch), iPad (5th generation)">ARKit に対応した iPhone または iPad</a> で実行できます。お客様の iPhone にもインストールできるので、ご自宅で実行していただき、今お住いのお部屋と広さを比較していただくこともできます。</p>
           </div>
           <div class="col-md-6">
             <span class="fa-stack fa-4x">
